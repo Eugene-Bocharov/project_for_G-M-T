@@ -135,8 +135,7 @@ function playlistsLoaded(data) {
   // playlistsLoadedTitleName.className =
     "playlistsLoaded_section__title_playlists";
   playlistsLoadedTitleName.textContent = "New Releases";
-  
-
+  playlistsLoadedTitleName.className = '  section__title_section__title_playlists'
 
   playlistsLoadedTitle.appendChild(playlistsLoadedTitleIco);
   playlistsLoadedTitle.appendChild(playlistsLoadedTitleName);
