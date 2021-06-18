@@ -1,0 +1,13 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" width="28" height="28">
+	<title>type-check-svg</title>
+	<defs>
+		<image  width="28" height="28" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAAXNSR0IB2cksfwAAAJZQTFRFAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOgvNKgAAADJ0Uk5T3P9cDoX6AA1m5mv0lfFl7XVLTkzU/kfeRMQeuCPVK8kcyjI5vf0HQcUVw4H2nPe3G50tgyLZAAAAhElEQVR4nH3RxxKCUBBE0ScjVzAHELMYMMf//zndubB6enuqenNDqOmFyEOrxxppJA5CkjpozZZGrN3RiHV7GrG+gzDwkOH/8w8ZeUiU5RptXGiEydRBZvNcI4ulg6zWDlJuHGRbOMhuX2k8HE8a4XxxkPJ604jdHxq/+WON2LPSyOv9ActrDvzHJPumAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #ffffff;stroke-linejoin:round;stroke-width: 2 } 
+	</style>
+	<use id="Layer 1" href="#img1" x="0" y="0" />
+	<path id="Layer" class="shp0" d="M24.71 5.71L18.34 12.07" />
+	<path id="Layer" class="shp0" d="M19.29 11.6L16.47 8.77" />
+</svg>

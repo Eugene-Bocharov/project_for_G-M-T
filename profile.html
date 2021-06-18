@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Audio Catalog</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="./styles/browse.css">
+    <link rel="stylesheet" href="./styles/profile.css">
+    <link rel="stylesheet" href="styles/navbar.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="dimmer"></div>
+      <nav class="navigation">
+
+        <button type="button" class="nav__toggler" id="navToggler">
+          <img src="images/icons/nav_menu.svg" alt="Open nav menu" class="button-menu-img" />
+        </button>
+
+        <ul class="menu">
+          <li class="menu-item" >
+            <a href="./index.html" class="menu-item_link">Browse</a>
+          </li>
+          <li class="menu-item">
+            <a href="./Search.html" class="menu-item_link">Search</a>
+          </li>
+          <li class="menu-item">
+            <a href="#" class="menu-item_link">Library</a>
+          </li>
+          <li class="menu-item">
+            <a href="./profile.html" class="menu-item_link-1">Profile</a>
+          </li>
+           
+
+          <div id="logo-box"></div>
+        </ul>
+      </nav>
+
+      <section id="user-data">
+          <img src="./images/dark.jpg" alt="" class="user_img_p">
+
+          <h5 class="user-name_p">Eugene</h5>
+
+          <h5 class="user-status_p">Artist</h5>
+
+
+          <a href="./settings.html" class="settings-box" style="display: flex;margin-top: 20px; text-decoration: none; width: 250px; height: 60px; margin-left: auto; margin-right: auto; align-items: center;
+           border: 2px solid black; border-radius: 25px;"> 
+            <img src="./images/icons/settings.png" alt="" width="40px" height="40px" style="margin-left: 10px
+            ;">
+            <h5 style="
+    margin: auto 10px auto auto;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    /* line-height: 50px; */
+    letter-spacing: -0.04em;
+    /* margin-right: 6px; */
+    color: #2D2D2D;">settings</h5>
+          </a>
+          <!-- <a href="#" class="settings-box" style="display: flex;margin-top: 20px; text-decoration: none; width: 250px; height: 50px; margin-left: auto; margin-right: auto; align-items: center;
+          border: 2px solid #E6EFFB; border-radius: 25px;"> 
+           <img src="./images/icons/settings.png" alt="" width="40px" height="40px" style="margin-left: 10px
+           ;">
+           <h5 style="
+   margin: auto 10px auto auto;
+   font-family: Lato;
+   font-style: normal;
+   font-weight: 900;
+   font-size: 18px;
+   /* line-height: 50px; */
+   letter-spacing: -0.04em;
+   /* margin-right: 6px; */
+   color: #2D2D2D;
+   margin-bottom: 10px;">settings</h5>
+         </a> -->
+         <a href="#" class="settings-box" style="display: flex;margin-top: 20px; text-decoration: none; width: 250px; height: 60px; margin-left: auto; margin-right: auto; align-items: center;
+         border: 2px solid black; border-radius: 25px;"> 
+          <img src="./images/icons/exit.png" alt="" width="40px" height="40px" style="margin-left: 10px
+          ;">
+          <h5 style="
+  margin: auto 10px auto auto;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  /* line-height: 50px; */
+  letter-spacing: -0.04em;
+  /* margin-right: 6px; */
+  color: #2D2D2D;;">log         out</h5>
+        </a>
+          </section>
+      </section>
+</div>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/navbar.js"></script>
+    <script src="./scripts/profile.js"></script>
+  </body>
+</html>

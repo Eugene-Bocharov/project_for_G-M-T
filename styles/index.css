@@ -1,0 +1,38 @@
+/* --------------------------------------------------Fonts---------------------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+
+/* --------------------------------------------------End Fonts------------------------------------------------ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  --color-dark: #2d2d2d;
+  --color-secondary: #7c8db5;
+  --color-accent: #f8991c;
+  --color-border: #e6effb;
+  --color-disabled: #dadada;
+
+  font-family: sans-serif;
+  color: var(--color-dark);
+}
+
+.container {
+  max-width: 768px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* --------------------------------------------------Header---------------------------------------------------- */
+
+/* .header{
+  background-color: #efefef;
+} */
+
+/* --------------------------------------------------End Header------------------------------------------------ */

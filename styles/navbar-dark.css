@@ -1,0 +1,222 @@
+/* .nav {
+  padding: 28px 0;
+
+} */
+
+.nav__toggler {
+    display: none;
+  }
+  
+  /* .nav__toggler {
+      display: none;
+      border: none;
+      background: none;
+      cursor: pointer;
+    } */
+  
+  .nav__menu_open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    padding: 11px 37px;
+    border: 1px solid var(--color-border);
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  
+  .navigation {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    max-width: 758px;
+    margin-bottom: 15px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 350px; */
+    transition: all 0.2s linear;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .container-h {
+    margin-left: 25px;
+  }
+  
+  .menu-item {
+    list-style: none;
+    margin-top: 10px;
+    margin-right: 15px;
+  }
+  
+  .menu-item_link-1 {
+    /* /font-size: 14px; */
+    /* font-family: 'Montserrat', sans-serif; */
+    color:  white;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    line-height: 1.2;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.04em;
+  }
+  
+  .menu-item_link {
+    color: #979798;
+    line-height: 1.2;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    line-height: 1.2;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.04em;
+  }
+  
+  .menu-item_link:hover {
+    color: rgb(208, 208, 208);
+  }
+  
+  .nav__toggler {
+    display: none;
+  }
+  
+  #logo-box {
+    /* margin-bottom: 50px; */
+    /* margin-right: 45px; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    /* margin-bottom: 50px; */
+  }
+  
+  .UserName {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.04em;
+    margin-right: 6px;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .UserImg {
+    border: 2px solid #5e5e5e;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin-top: 20px;
+  }
+  
+  .nav__toggler {
+    display: none;
+  }
+  
+  @media (max-width: 680px) {
+    #logo-box {
+      padding-bottom: 10px;
+      margin-right: 0px;
+    }
+  
+    .menu-item_link:last-child {
+      margin-bottom: 5px;
+    }
+  
+    .menu {
+      display: none;
+      transition: all 00.2s linear;
+    }
+  
+    /* .menu-item{
+     /* display: none; */
+    /* margin-right: 10px; */
+    /* }   */
+  
+    /* .menu-item_open{
+     /* display: block; */
+    /* }  */
+  
+    .nav__toggler {
+      transition: all 0.2s linear;
+      /* background-image: url('../images/icons/nav_menu.svg');. */
+    }
+  
+    .nav__toggler {
+      display: block;
+      border: none;
+      background: none;
+      cursor: pointer;
+      margin-top: 25px;
+      margin-left: auto;
+    }
+  
+    .button-menu-img {
+      transition: all 0.2s linear;
+    }
+  
+    .button-menu-img_open {
+      transform: rotate(90deg);
+      transition: all 0.2s linear;
+    }
+  
+    /* .nav__toggler_open{ */
+    /* transition: all 0.2s linear; */
+    /* background-image: url('../images/icons/nav_menu.svg'); */
+    /* transform: rotate(90deg); */
+    /* margin-top: 25px; */
+    /* margin-left: 540px; */
+    /* margin-right: 50px;     */
+    /* } */
+  
+    .menu_open {
+      position: absolute;
+      transition: all 0.2s linear;
+      z-index: 12;
+      top: 7%;
+      right: 13%;
+      background-color: #fff;
+      /* height: 250px; */
+      /* width: 150px; */
+      border-radius: 15px;
+      display: flex;
+      flex-direction: column;
+  
+      padding-right: 10px;
+      padding-left: 25px;
+      /* background-color: red; */
+    }
+  
+    .dimmer {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 3;
+      background-color: rgba(45, 45, 45, 0.35);
+      display: none;
+      transition: all 0.5s linear;
+    }
+  
+    .dimmer_active {
+      display: block;
+      transition: all 0.5s linear;
+    }
+  }
